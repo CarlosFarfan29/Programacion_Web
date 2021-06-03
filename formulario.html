@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body style="background-color:aquamarine;">
+    
+    <form action="">
+        <fieldset>
+            <legend>FORMULARIO DE CONTACTO</legend>
+            <label for="nombre">Ingrese nombres:</label><br>
+            <input type="text" name="nombre" id="nombre" required><br><br>
+
+            <label for="apellido">Ingrese apellidos:</label><br>
+            <input type="text" name="apellido" id="apellido" required><br><br>
+
+            <label for="password">Ingrese contraseña:</label><br>
+            <input type="password" name="password" id="password" required><br><br>
+
+            <label for="edad">Ingrese su edad:</label><br>
+            <input type="number" name="edad" id="edad" min="1"><br><br>
+
+            <label for="genero">Ingrese género:</label><br>
+            <input type="radio" name="genero" id="masculino">
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="genero" id="femenino">
+            <label for="femenino">Femenino</label><br><br>
+
+            <label for="nacimiento">Ingrese fecha de nacimiento:</label><br>
+            <input type="date" name="nacimiento" id="nacimiento"><br><br>
+
+            <label for="email">Ingrese correo:</label><br>
+            <input type="email" name="email" id="email"><br><br>
+
+            <label for="dias">Días disponibles:</label><br>
+            <input type="checkbox" name="dias" id="lunes">
+            <label for="lunes">Lunes</label><br>
+            <input type="checkbox" name="dias" id="martes">
+            <label for="martes">Martes</label><br>
+            <input type="checkbox" name="dias" id="miércoles">
+            <label for="miércoles">Miércoles</label><br>
+            <input type="checkbox" name="dias" id="jueves">
+            <label for="jueves">Jueves</label><br>
+            <input type="checkbox" name="dias" id="viernes">
+            <label for="viernes">Viernes</label><br><br>
+
+            <input type="submit" value="Enviar datos">
+            <input type="reset" value="Borrar datos">
+
+        </fieldset>
+    </form>
+
+    
+</body>
+</html>
